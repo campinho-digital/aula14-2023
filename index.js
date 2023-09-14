@@ -22,6 +22,13 @@ let y;
 x = 10;
 y = "Olá";
 
+
+
+const PI = 3.14;
+const nome = "João";
+const array = [1,2,3];
+
+
 /*
 
 const PI = 3.14; // Declara uma constante com valor 3.14
@@ -45,10 +52,16 @@ Resultado do preço final no console.
 */
 
 
+let precoInicial = 4500;
+let tiposCompras = ["Online", "Loja Física"]
+let preçoFinal = 4500 * 0.2
 
-const PI = 3.14;
-const nome = "João";
-const array = [1,2,3];
+if(tiposCompras === tiposCompras[0]) {
+    console.log(preçoFinal)
+} else {
+    console.log(precoInicial)
+}
 
+console.log(tiposCompras[1]);
 
 
