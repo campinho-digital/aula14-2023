@@ -5,6 +5,14 @@ Atribui o valor 10 à variável "i"
 Atribui a string "Mundo" à variável "j"
 */
 
+var i = 0
+var j = ""
+
+i = 10;
+j = "Mundo"
+
+console.log("Retorno do Exercicio 1 é " + i,j)
+
 
 /*
 let x = 5; // Declara uma variável "x" e atribui o valor 5 a ela
@@ -12,6 +20,7 @@ let y; // Declara uma variável "y" sem atribuir valor
 x = 10; // Atribui o valor 10 à variável "x"
 y = "Olá"; // Atribui a string "Olá" à variável "y"
 */
+
 
 
 /*
@@ -36,6 +45,13 @@ Saída:
 Resultado do preço final no console.
 */
 
+const valorInicial = 4500.00;
+const desconto = 0.20;
 
+let descontoInicial = valorInicial * desconto;
+
+let precoFinal = valorInicial - descontoInicial;
+
+console.log("Valor do Exercicio 2 é " + precoFinal)
 
 
