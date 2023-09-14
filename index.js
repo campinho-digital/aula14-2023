@@ -35,5 +35,5 @@ Resultado do preço final no console.
 */
 const price = 4500;
 const discount = 0.2;
-const finalPrice = price - price * discount;
+const finalPrice = price - (price * discount);
 console.log(`O resultado com o desconto é: R$${finalPrice}`);
