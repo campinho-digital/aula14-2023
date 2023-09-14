@@ -46,4 +46,9 @@ Resultado do preço final no console.
 
 
 
+const PI = 3.14;
+const nome = "João";
+const array = [1,2,3];
+
+
 
