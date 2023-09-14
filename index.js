@@ -5,14 +5,12 @@ Atribui o valor 10 à variável "i"
 Atribui a string "Mundo" à variável "j"
 */
 
-
 /*
 let x = 5; // Declara uma variável "x" e atribui o valor 5 a ela
 let y; // Declara uma variável "y" sem atribuir valor
 x = 10; // Atribui o valor 10 à variável "x"
 y = "Olá"; // Atribui a string "Olá" à variável "y"
 */
-
 
 /*
 
@@ -35,7 +33,7 @@ Calcular o desconto no valor inicial
 Saída:
 Resultado do preço final no console.
 */
-
-
-
-
+const price = 4500;
+const discount = 0.2;
+const finalPrice = price - price * discount;
+console.log(`O resultado com o desconto é: R$${finalPrice}`);
