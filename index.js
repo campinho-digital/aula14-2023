@@ -17,6 +17,10 @@ x = 10; // Atribui o valor 10 à variável "x"
 y = "Olá"; // Atribui a string "Olá" à variável "y"
 */
 
+let x = 5;
+let y;
+x = 10;
+y = "Olá";
 
 /*
 
