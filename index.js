@@ -54,7 +54,22 @@ Resultado do preço final no console.
 /* git clone -b Gustavo --single-branch https://github.com/campinho-digital/aula14-2023.git */
 
 let precoInicial = 4500;
-let tiposCompras = ["Online", "Loja Física"];
-let precoFinal = 4500 * 0.2;
+let tiposCompras = ['Online', 'Fisica'];
+let precoFinal = 4500 - (precoInicial * 0.2);
+let escolha = 1;
+
+if(escolha === 0) {
+    console.log(tiposCompras[0] + "  / " + " Valor: " + precoFinal)
+} else if(escolha === 1) {
+    console.log(tiposCompras[1] + " /  " +  " Valor: " + precoInicial)
+} else {
+    console.log('Fora do intervalo')
+}
+
+
+
+
+
+
 
 
