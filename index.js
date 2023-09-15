@@ -36,6 +36,6 @@ Saída:
 Resultado do preço final no console.
 */
 
-
+console.log()
 
 
