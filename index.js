@@ -53,15 +53,7 @@ Resultado do preço final no console.
 
 
 let precoInicial = 4500;
-let tiposCompras = ["Online", "Loja Física"]
-let preçoFinal = 4500 * 0.2
-
-if(tiposCompras === tiposCompras[0]) {
-    console.log(preçoFinal)
-} else {
-    console.log(precoInicial)
-}
-
-console.log(tiposCompras[1]);
+let tiposCompras = ["Online", "Loja Física"];
+let precoFinal = 4500 * 0.2;
 
 
