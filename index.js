@@ -50,7 +50,8 @@ Calcular o desconto no valor inicial
 Saída:
 Resultado do preço final no console.
 */
-
+// Para clonar uma branch específica
+/* git clone -b Gustavo --single-branch https://github.com/campinho-digital/aula14-2023.git */
 
 let precoInicial = 4500;
 let tiposCompras = ["Online", "Loja Física"];
