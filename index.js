@@ -36,6 +36,41 @@ Saída:
 Resultado do preço final no console.
 */
 
+// Exec - 1
+let i = 0;
+let j;
 
+i = 10;
+j = "Mundo";
 
+// Exec - 2
 
+let x = 5;
+let y;
+
+x = 10;
+y = "Olá";
+
+// Exec - 3
+const PI = 3.14;
+const nome = "João";
+const array = [1, 2, 3];
+
+//PI = 3.1415; // Gera um erro, pois não é possível reatribuir valor a uma constante
+
+// Exec 4
+
+// Valor inicial do computador
+const valorInicial = 4500.00;
+
+// Porcentagem de desconto
+const percentualDesconto = 20;
+
+// Calcula o valor do desconto (20% do valor inicial)
+const desconto = (percentualDesconto / 100) * valorInicial;
+
+// Calcula o preço final com desconto
+const precoFinal = valorInicial - desconto;
+
+// Exibe o preço final no console
+console.log("O preço final com desconto é R$" + precoFinal.toFixed(2));
