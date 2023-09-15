@@ -53,7 +53,18 @@ Resultado do preço final no console.
 
 
 let precoInicial = 4500;
-let tiposCompras = ["Online", "Loja Física"];
-let precoFinal = 4500 * 0.2;
+let tiposCompras = ["Online", "Fisico"];
+let precoFinal = precoInicial - (4500 * 0.2);
+
+tiposCompras.forEach(precoParaPagar => {
+    precoParaPagar.indexOf(0)
+    if (precoParaPagar.indexOf[0]) {
+        console.log(precoFinal) 
+    } else {
+        console.log(precoInicial)
+    }
+})
+
+
 
 
