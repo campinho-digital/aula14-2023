@@ -4,7 +4,14 @@ Declara uma variável "j" sem atribuir valor
 Atribui o valor 10 à variável "i"
 Atribui a string "Mundo" à variável "j"
 */
+let i = 0;
+let j ;
 
+i = 10;
+j = "Mundo";
+
+console.log(i)
+console.log(j)
 
 /*
 let x = 5; // Declara uma variável "x" e atribui o valor 5 a ela
@@ -35,6 +42,12 @@ Calcular o desconto no valor inicial
 Saída:
 Resultado do preço final no console.
 */
+
+const valorInicial = 4500.00; 
+const desconto = 0.2;
+const calculo = valorInicial * desconto; 
+let precoFinal = valorInicial - calculo; 
+console.log("o preço final é de R$ " + precoFinal)
 
 
 
