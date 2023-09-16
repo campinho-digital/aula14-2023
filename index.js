@@ -37,5 +37,10 @@ Resultado do preço final no console.
 */
 
 
+let precoOriginal = 4500.00;
+let desconto = 20; // em porcentagem
 
+let precoFinal = precoOriginal - (precoOriginal * (desconto / 100));
+
+console.log("O preço final com desconto é: R$" + precoFinal.toFixed(2)); //método toFixed(2) é usado para formatar o resultado para duas casas decimais.
 
