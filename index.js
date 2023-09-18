@@ -36,7 +36,21 @@ Saída:
 Resultado do preço final no console.
 */
 
-console.log("olá")
 
-testessss
-s
+//var armazenar informação dentro de uma variável (a var pode ser alterada enquanto o programa é executado)
+
+var olaMundo = "Oláa Mundooo!"
+
+
+
+//const mesmo conceito de variável (o conteúdo de uma const não pode ser alterado no decorrer do programa, ela é inalterável)
+
+const meuNomeEGui = 'meu nome é Gui'
+
+ //let
+
+ console.log(meuNomeEGui)
+
+ let idade = 30;
+
+ console.log(idade)
