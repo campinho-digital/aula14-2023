@@ -36,6 +36,15 @@ Saída:
 Resultado do preço final no console.
 */
 
+// ENTRADA
+const pcValue1 = 4500;
+const desconto = 20;
+const per100 = 100;
+const pcVlaue2 = 6000;
 
+// PROCESSO
+const calculator = (desconto/per100) * pcValue1
+const result = pcValue1 - calculator
 
-
+// SAÍDA
+console.log(result);
