@@ -4,6 +4,14 @@ Declara uma variável "j" sem atribuir valor
 Atribui o valor 10 à variável "i"
 Atribui a string "Mundo" à variável "j"
 */
+const i = 0
+const j;
+
+i = 10; 
+j = "Mundo";
+
+console.log (i);
+console.log(j);
 
 
 /*
