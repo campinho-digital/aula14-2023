@@ -35,7 +35,3 @@ Calcular o desconto no valor inicial
 Saída:
 Resultado do preço final no console.
 */
-
-
-
-
